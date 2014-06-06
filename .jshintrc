@@ -70,7 +70,7 @@
     "undef"         : true,   // Require all non-global variables be declared before they are used
     "freeze"        : true,   // Prevent polluting native prototypes
     "unused"        : false,  // Tolerate when a var is defined but never used
-    "funcscope"     : false,  // Tolerate when vars are declared inside control structures and then used outside them
+    "funcscope"     : false,  // Tolerate vars declared inside control structures and used outside them
     "iterator"      : true,   // Tolerate the __iterator__ property
     "notypeof"      : false,  // Tolerate invalid typeof operator values
     "proto"         : false,  // Tolerate __proto__ property
@@ -84,7 +84,7 @@
     "noempty"       : true,   // Prohibit use of empty blocks
     "nonew"         : true,   // Prohibit use of constructors for side-effects
     "plusplus"      : false,  // Prohibit use of '++' & '--'
-    "sub"           : true,   // Tolerate all forms of subscript notation besides dot notation e.g. 'dict['key']' instead of 'dict.key'
+    "sub"           : true,   // Tolerate all forms of subscript notation besides dot notation
     "trailing"      : true,   // Prohibit trailing whitespaces
     "indent"        : 4,      // Enforce specific tab width
     "nonbsp"        : true,   // Warn about "non-breaking whitespace" chars
@@ -94,7 +94,7 @@
     "maxparams"     : null,   // Set the max number of params allowed per function
     "maxdepth"      : null,   // Max number of nested code blocks (if statements)
     "maxstatements" : null,   // Max statements per function
-    "maxcomplexity" : null,   // Max number of linearly independent paths (cyclomatic complexity) through your source
+    "maxcomplexity" : null,   // Max number of linearly independent paths (cyclomatic complexity)
     "maxlen"        : null    // Max length for a line of code
 }
 
